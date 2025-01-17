@@ -9,6 +9,7 @@ import (
 func RunHelloWorld() {
 	fmt.Println("Hello World")
 }
+
 func TestCreateGoroutine(t *testing.T) {
 	go RunHelloWorld()
 	fmt.Println("Ups")
